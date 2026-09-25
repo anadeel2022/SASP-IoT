@@ -1,0 +1,5 @@
+# Preserve frozen source and evidence bytes across platforms.
+*.py -text
+*.json -text
+*.csv -text
+*.pdf binary

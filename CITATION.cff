@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying SASP manuscript and identify the code revision used."
+type: software
+title: "SASP: Service-Aware Spectrum-Power Scheduling for Reliable IoT Access"
+version: "8.10"
+authors:
+  - family-names: "Siddiqui"
+    given-names: "Muhammad Faisal"
+    orcid: "https://orcid.org/0000-0003-0847-4940"
+  - family-names: "Iqbal"
+    given-names: "Adeel"
+    orcid: "https://orcid.org/0000-0001-8692-173X"
+  - family-names: "Kim"
+    given-names: "Sung Won"
+    orcid: "https://orcid.org/0000-0001-8454-6980"
+  - family-names: "Al-Naeem"
+    given-names: "Mohammed"
+    orcid: "https://orcid.org/0000-0002-5682-6237"
+abstract: "Training-free service-aware spectrum-power scheduling, five nonlearning baselines, frozen evaluation protocol, and archived simulation metrics."
+keywords:
+  - Internet of Things
+  - scheduling
+  - virtual queues
+  - reliability
+  - reproducibility

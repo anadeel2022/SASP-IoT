@@ -1,0 +1,25 @@
+{
+  "original_archives": [
+    {
+      "filename": "v8_10_main_results_20260923_141308.zip",
+      "sha256": "ff5b9a3dbdf20a7a92924260d1c4c762981cdff8374de8a7ad0808c4a3af2164"
+    },
+    {
+      "filename": "final_.zip",
+      "sha256": "c9767e7fcfee4678a23ef04a91cb11ff174a581883eca0519cb99ab58c5bb2d0"
+    }
+  ],
+  "scenario_rows": {
+    "final_stress": 4320,
+    "final_stationary": 4320,
+    "final_ablation": 600,
+    "final_long_stress": 720,
+    "final_scale12": 720,
+    "final_scale16": 720,
+    "final_scale24": 720,
+    "final_scale32": 720
+  },
+  "scenario_rows_total": 12840,
+  "source_hashes_match_frozen_protocol": true,
+  "included": "Original scenario CSVs, summary CSVs, paired-comparison CSVs, frozen protocol and validation selection; original bytes preserved. Episode JSON traces and runtime manifests are not included."
+}

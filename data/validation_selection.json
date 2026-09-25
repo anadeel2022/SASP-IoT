@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-09-22T10:19:37.133230+00:00",
+  "version": "8.10-baseline-repair",
+  "selected_v": 0.1,
+  "selection_mode": "minimum energy among validation-feasible candidates",
+  "candidate_summaries": [
+    {
+      "v": 0.0,
+      "deadline_expiration_class0": 0.021799958148172344,
+      "deadline_expiration_class1": 0.011933174740980596,
+      "deadline_expiration_class2": 0.001232485152388065,
+      "queue_overflow_packet_probability": 0.009730504621911286,
+      "cohort_goodput_mbps": 3.3900925925925924,
+      "energy_j": 0.0750103367089246,
+      "total_packet_failure_probability": 0.02509828207304396,
+      "maximum_normalized_excess": 0,
+      "validation_feasible": true
+    },
+    {
+      "v": 0.1,
+      "deadline_expiration_class0": 0.0333110542848826,
+      "deadline_expiration_class1": 0.015077339542623311,
+      "deadline_expiration_class2": 0.0018409678199751468,
+      "queue_overflow_packet_probability": 0.01113712404998674,
+      "cohort_goodput_mbps": 3.3658796296296294,
+      "energy_j": 0.06864064639536384,
+      "total_packet_failure_probability": 0.03291230281296096,
+      "maximum_normalized_excess": 0,
+      "validation_feasible": true
+    },
+    {
+      "v": 1.0,
+      "deadline_expiration_class0": 0.08484488106851817,
+      "deadline_expiration_class1": 0.03203931896210568,
+      "deadline_expiration_class2": 0.013688092147451323,
+      "queue_overflow_packet_probability": 0.01813785017577459,
+      "cohort_goodput_mbps": 3.2538425925925925,
+      "energy_j": 0.06551631174450866,
+      "total_packet_failure_probability": 0.07138552087288484,
+      "maximum_normalized_excess": 1.1211220267129542,
+      "validation_feasible": false
+    },
+    {
+      "v": 10.0,
+      "deadline_expiration_class0": 0.2939008751600965,
+      "deadline_expiration_class1": 0.1342962818463469,
+      "deadline_expiration_class2": 0.109467333794545,
+      "queue_overflow_packet_probability": 0.05931062036420146,
+      "cohort_goodput_mbps": 2.6099305555555556,
+      "energy_j": 0.050875117343643216,
+      "total_packet_failure_probability": 0.2622844357617869,
+      "maximum_normalized_excess": 6.347521879002413,
+      "validation_feasible": false
+    },
+    {
+      "v": 100.0,
+      "deadline_expiration_class0": 0.9443738836009699,
+      "deadline_expiration_class1": 0.7857036203990472,
+      "deadline_expiration_class2": 0.47936050972982835,
+      "queue_overflow_packet_probability": 0.1559791370969638,
+      "cohort_goodput_mbps": 0.20002314814814817,
+      "energy_j": 0.00627215323404471,
+      "total_packet_failure_probability": 0.967022318643712,
+      "maximum_normalized_excess": 22.609347090024247,
+      "validation_feasible": false
+    }
+  ],
+  "blocks": 3,
+  "scenarios_per_suite_per_block": 8,
+  "confirmatory_eligible": true,
+  "source_hashes": {
+    "channel_env.py": "c02664a5925e261100840002cc28451492e25683132d7ef15d2146dbb85f047e",
+    "experiment_v8_10.py": "d1e676d505101feb625d4c9873023e4975cc475c214a26c59fdfd49bf03948d7",
+    "faithful_baselines.py": "cc270dfbdbeba58ddabc04673b131833df4c38a889237a841259e18b44775e48",
+    "protocol_v8_10.py": "f40bf48adc9709d85e9622987e8918661ac7ff0844162c3726a38f676ad699c0",
+    "protocol_v8_9.py": "54622afb9868bdd42fa22ae7e61fbfe35ba794636e85f98bb45b128a8493a6c7",
+    "sasp_scheduler.py": "300425744478785592ecbb13fe2627dbbbc76522cc62fa301c36ff1de867df3c"
+  },
+  "validation_specification": {
+    "source_hashes": {
+      "channel_env.py": "c02664a5925e261100840002cc28451492e25683132d7ef15d2146dbb85f047e",
+      "experiment_v8_10.py": "d1e676d505101feb625d4c9873023e4975cc475c214a26c59fdfd49bf03948d7",
+      "faithful_baselines.py": "cc270dfbdbeba58ddabc04673b131833df4c38a889237a841259e18b44775e48",
+      "protocol_v8_10.py": "f40bf48adc9709d85e9622987e8918661ac7ff0844162c3726a38f676ad699c0",
+      "protocol_v8_9.py": "54622afb9868bdd42fa22ae7e61fbfe35ba794636e85f98bb45b128a8493a6c7",
+      "sasp_scheduler.py": "300425744478785592ecbb13fe2627dbbbc76522cc62fa301c36ff1de867df3c"
+    },
+    "grid": [
+      0.0,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "selection_rule": "mean_targets_and_95pct_V0_cohort_goodput_v1"
+  },
+  "record_set_sha256": "942dc73f749c70ac424faa3b57940d1f5c23acb2afdad1bdfa02a29d51ff59ee"
+}
